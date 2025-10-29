@@ -1,0 +1,4 @@
+﻿# Arquivos binários executáveis
+*.exe
+*.out
+# ... (cole o conteúdo completo acima) ...
