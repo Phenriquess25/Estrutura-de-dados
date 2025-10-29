@@ -24,7 +24,7 @@ O algoritmo de Huffman é uma técnica de compressão de dados sem perda que cri
 > Clone esse projeto em seu computador com o comando:
 >
 > ```
-> 	git clone https://github.com/Jader-Neto/Projeto-Huffman.git
+> 	git clone https://github.com/Phenriquess25/Estrutura-de-dados.git
 > ```
 >
 > Acesse o diretório do projeto seu terminal:
