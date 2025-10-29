@@ -1,0 +1,36 @@
+\doxysection{lista.\+h}
+\hypertarget{lista_8h_source}{}\label{lista_8h_source}\index{inc/lista.h@{inc/lista.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00001}00001\ \textcolor{preprocessor}{\#ifndef\ LISTA\_H}}
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00002}00002\ \textcolor{preprocessor}{\#define\ LISTA\_H}}
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00003}00003\ }
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00004}00004\ \textcolor{preprocessor}{\#include\ <stdio.h>}}
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00005}00005\ \textcolor{preprocessor}{\#include\ <stdlib.h>}}
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00006}00006\ }
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00007}\mbox{\hyperlink{structnode}{00007}}\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structnode}{node}}}
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00008}00008\ \{}
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00009}00009\ \ \ \textcolor{keywordtype}{char}\ byte;\ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ Caractere\ do\ arquivo\ que\ será\ compactado/descompactado}}
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00010}00010\ \ \ \textcolor{keywordtype}{int}\ freq;\ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ A\ frequência\ que\ o\ caractere\ aparece\ no\ arquivo}}
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00011}00011\ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structnode}{node}}\ *left;\ \ \textcolor{comment}{//\ Nó\ filho\ esquerdo}}
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00012}00012\ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structnode}{node}}\ *right;\ \textcolor{comment}{//\ Nó\ filho\ direito}}
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00013}00013\ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structnode}{node}}\ *prox;\ \ \textcolor{comment}{//\ Próximo\ nó\ na\ lista\ encadeada}}
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00014}00014\ \}\ node\_t;}
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00015}00015\ }
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00023}00023\ node\_t\ *criar\_List();}
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00024}00024\ }
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00034}00034\ \textcolor{keywordtype}{void}\ *ponteiroparaVoid(\textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{char}\ \textcolor{keywordtype}{byte});}
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00035}00035\ }
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00046}00046\ node\_t\ *removeCabeca(node\_t\ **head,\ \textcolor{keywordtype}{int}\ *tamLista);}
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00047}00047\ }
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00060}00060\ node\_t\ *inserir\_ord(node\_t\ **head,\ \textcolor{keywordtype}{int}\ freq,\ \textcolor{keywordtype}{char}\ \textcolor{keywordtype}{byte},\ \textcolor{keywordtype}{int}\ *tamLista);}
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00061}00061\ }
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00073}00073\ node\_t\ *listFreq(FILE\ *arq,\ \textcolor{keywordtype}{int}\ frequencias[256],\ \textcolor{keywordtype}{int}\ *tamLista);}
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00074}00074\ }
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00083}00083\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{char}\ recuperarByteDePonteiroVoid(\textcolor{keywordtype}{void}\ *\textcolor{keywordtype}{byte});}
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00084}00084\ }
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00094}00094\ node\_t\ *criarNo(\textcolor{keywordtype}{void}\ *\textcolor{keywordtype}{byte},\ \textcolor{keywordtype}{int}\ frequency);}
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00095}00095\ }
+\DoxyCodeLine{\Hypertarget{lista_8h_source_l00096}00096\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ LISTA\_H}}
+
+\end{DoxyCode}

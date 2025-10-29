@@ -1,0 +1,24 @@
+\doxysection{descompressao.\+h}
+\hypertarget{descompressao_8h_source}{}\label{descompressao_8h_source}\index{inc/descompressao.h@{inc/descompressao.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{descompressao_8h_source_l00001}00001\ \textcolor{preprocessor}{\#ifndef\ DESCOMPRIMIR\_H}}
+\DoxyCodeLine{\Hypertarget{descompressao_8h_source_l00002}00002\ \textcolor{preprocessor}{\#define\ DESCOMPRIMIR\_H}}
+\DoxyCodeLine{\Hypertarget{descompressao_8h_source_l00003}00003\ }
+\DoxyCodeLine{\Hypertarget{descompressao_8h_source_l00004}00004\ \textcolor{preprocessor}{\#include\ <stdio.h>}}
+\DoxyCodeLine{\Hypertarget{descompressao_8h_source_l00005}00005\ \textcolor{preprocessor}{\#include\ "{}lista.h"{}}}
+\DoxyCodeLine{\Hypertarget{descompressao_8h_source_l00006}00006\ \textcolor{preprocessor}{\#include\ "{}arvore.h"{}}}
+\DoxyCodeLine{\Hypertarget{descompressao_8h_source_l00007}00007\ }
+\DoxyCodeLine{\Hypertarget{descompressao_8h_source_l00018}00018\ \textcolor{keywordtype}{int}\ tamanho\_lixo\_arquivoCompactado(FILE\ *archive);}
+\DoxyCodeLine{\Hypertarget{descompressao_8h_source_l00019}00019\ }
+\DoxyCodeLine{\Hypertarget{descompressao_8h_source_l00030}00030\ \textcolor{keywordtype}{int}\ tamanho\_arvore\_arquivoCompactado(FILE\ *archive);}
+\DoxyCodeLine{\Hypertarget{descompressao_8h_source_l00031}00031\ }
+\DoxyCodeLine{\Hypertarget{descompressao_8h_source_l00042}00042\ node\_t\ *montar\_arvore(FILE\ *archive,\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ *treeSize);}
+\DoxyCodeLine{\Hypertarget{descompressao_8h_source_l00043}00043\ }
+\DoxyCodeLine{\Hypertarget{descompressao_8h_source_l00054}00054\ \textcolor{keywordtype}{int}\ verificar\_bit\_i(\textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{char}\ c,\ \textcolor{keywordtype}{int}\ i);}
+\DoxyCodeLine{\Hypertarget{descompressao_8h_source_l00055}00055\ }
+\DoxyCodeLine{\Hypertarget{descompressao_8h_source_l00069}00069\ \textcolor{keywordtype}{void}\ recuperar\_bytes(FILE\ *fileIn,\ FILE\ *fileOut,\ \textcolor{keywordtype}{short}\ \textcolor{keywordtype}{int}\ trashSize,\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{long}\ \textcolor{keywordtype}{long}\ \textcolor{keywordtype}{int}\ sizeFile,\ node\_t\ *huffTree);}
+\DoxyCodeLine{\Hypertarget{descompressao_8h_source_l00070}00070\ }
+\DoxyCodeLine{\Hypertarget{descompressao_8h_source_l00071}00071\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ DESCOMPRIMIR\_H}}
+
+\end{DoxyCode}
